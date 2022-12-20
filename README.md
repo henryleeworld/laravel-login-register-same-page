@@ -1,4 +1,4 @@
-# Laravel 8 登入／註冊同一頁
+# Laravel 9 登入／註冊同一頁
 
 在後臺同一頁面中選擇輸入使用者的電子郵件地址和密碼，或是註冊新的帳號。
 
@@ -12,7 +12,7 @@ $ git clone
 ```sh
 $ composer install
 ```
-- 產⽣ Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
+- 產生 Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
 ```sh
 $ php artisan key:generate
 ```
@@ -26,5 +26,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/0L3Ui9J.png)
+![](https://i.imgur.com/1C3AyhI.png)
 > 在同一頁使用現有的帳號登入／建立新的帳號
